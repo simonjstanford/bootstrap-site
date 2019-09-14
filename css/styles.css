@@ -47,21 +47,62 @@ h1 {
   transform: rotate(25deg);
 }
 
-.features-icon {
+#features {
+  padding: 7% 15%;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.feature-box svg {
   color: #ef8172;
-  font-size: 3rem;
-  margin:  20px auto;
+  margin: auto auto 1rem auto;
   display: block;
 }
 
-.features-heading {
+.feature-box svg:hover {
+  color:#ff4c68;
+}
+
+.feature-box h3 {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   font-size: 1.5rem;
-  text-align: center;
 }
 
-.features-text {
+.feature-box p {
   color: #8f8f8f;
+}
+
+#testimonials {
+  padding: 7% 15%;
+  text-align:center;
+  background-color: #ef8172;
+  color: white;
+}
+
+#testimonials > h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#testimonials img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
   text-align: center;
+  padding-bottom: 3%;
+}
+
+#press > img {
+  width: 15%;
+  margin: 20px 20px 50px;
 }
