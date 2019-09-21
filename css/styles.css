@@ -16,6 +16,17 @@ h1, h2, h3, h4, h5, h6 {
   padding: 7% 15%;
 }
 
+/* Sections */
+
+.coloured-section {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white-section {
+  background-color: white;
+}
+
 /* Nav Section*/
 
 .navbar {
@@ -40,11 +51,6 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /* Title Section */
-
-#title {
-  background-color: #ff4c68;
-  color: white;
-}
 
 #title h1 {
   font-weight: 900;
@@ -82,7 +88,6 @@ h1, h2, h3, h4, h5, h6 {
 /* Features Section */
 
 #features {
-  background-color: white;
   position: relative;
 }
 
@@ -109,7 +114,6 @@ h1, h2, h3, h4, h5, h6 {
 #testimonials {
   text-align:center;
   background-color: #ef8172;
-  color: white;
 }
 
 #testimonials h2 {
@@ -152,11 +156,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* CTA Section */
-
-#cta {
-  background-color: #ff4c68;
-  color: white;
-}
 
 #cta h3 {
   font-weight: 700;
